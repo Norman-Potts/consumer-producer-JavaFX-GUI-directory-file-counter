@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="447.0" prefWidth="568.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="guidirectoryfilecounter.FXMLDocumentController">
+    <children>
+        <Button id="btn_Search" fx:id="button" layoutX="34.0" layoutY="199.0" onAction="#Search" text="Search" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Label layoutX="36.0" layoutY="59.0" prefHeight="35.0" prefWidth="258.0" text="Directory File Counter" textFill="#ee0404">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="129.0" text="Enter directory name to begin search:" />
+      <Label layoutX="34.0" layoutY="167.0" text="Filename to search for:" />
+      <TextField fx:id="input_dir" layoutX="283.0" layoutY="125.0" />
+      <TextField fx:id="input_file" layoutX="283.0" layoutY="163.0" />
+      <TextArea fx:id="txtArea" layoutX="32.0" layoutY="240.0" prefHeight="116.0" prefWidth="520.0" />
+      <Label layoutX="60.0" layoutY="376.0" text="Files Found" />
+      <Label fx:id="lbl_countOfFilesFound" layoutX="134.0" layoutY="376.0" textFill="#e80505" />
+    </children>
+</AnchorPane>
