@@ -1,7 +1,4 @@
-/** Parallel Processing
- *  Assignment 5
- *  Created by Norman Potts
- */
+ 
 package guidirectoryfilecounter;
 
 import java.io.File;

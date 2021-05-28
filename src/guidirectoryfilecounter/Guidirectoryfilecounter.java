@@ -7,7 +7,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-/** Class Assignment5
+/** Class Guidirectoryfilecounter
  *
  *       Creates a GuI and looks threw a specifed directory for a given file.
  * 

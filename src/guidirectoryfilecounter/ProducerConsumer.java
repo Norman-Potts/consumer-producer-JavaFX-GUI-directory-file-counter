@@ -1,7 +1,4 @@
-/** Parallel Processing
- *  Assignment 5
- *  Created by Norman Potts
- */
+ 
 package guidirectoryfilecounter;
 
 import java.io.File;
@@ -413,4 +410,4 @@ public class ProducerConsumer
     }// End of getter.
     
     
-}// End of Class Assignment3_PoducerConsumerApp 
+}// End of Class ProducerConsumer 
